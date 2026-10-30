@@ -1,0 +1,18 @@
+cmd=map:2
+cmd.Type=ping
+cmd.Id=7
+cmd.Missing=absent
+arr=array:5
+arr[0]=uint:1
+arr[1]=uint:42
+arr[2]=int:-1
+arr[3]=bool:1
+arr[4]=null
+scan.trunc=incomplete
+scan.full=ok size=4
+scan.bad=invalid
+scan.empty=incomplete
+enc.hello=6568656c6c6f
+enc.1000=1903e8
+enc.map=a2645479706564706f6e67614e19012c
+round.Type=pong round.N=300

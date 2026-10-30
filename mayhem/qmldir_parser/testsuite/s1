@@ -1,0 +1,7 @@
+module Foo
+Button 1.0 Button.qml
+Button 1.1 Button11.qml
+internal Hidden Hidden.qml
+import Bar 1.0
+optional plugin x
+# comment

@@ -1,0 +1,15 @@
+== qml ok=1 diagnostics=0
+object Rectangle
+binding id
+binding width
+number 100
+object Text
+binding text
+string hi
+== broken ok=0 diagnostics=1
+== expr ok=1 diagnostics=0
+binary op=0
+number 1
+binary op=24
+number 2
+number 3

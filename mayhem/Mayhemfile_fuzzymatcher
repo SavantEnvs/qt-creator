@@ -1,0 +1,9 @@
+project: savantenvs/qt-creator
+target: fuzzymatcher
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzzymatcher/testsuite
+cmds:
+  - cmd: /mayhem/fuzzymatcher
+    libfuzzer: true
+    timeout: 10

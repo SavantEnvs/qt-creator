@@ -1,0 +1,7 @@
+module My.Module
+plugin myplugin
+classname MyPlugin
+Button 1.0 Button.qml
+singleton Theme 2.1 Theme.qml
+typeinfo plugins.qmltypes
+depends QtQuick 2.0

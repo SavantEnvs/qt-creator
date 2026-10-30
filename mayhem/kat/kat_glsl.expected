@@ -1,0 +1,20 @@
+== function parsed=1
+GLSL::TranslationUnitAST
+ GLSL::FunctionDeclarationAST
+  GLSL::QualifiedTypeAST
+   GLSL::BasicTypeAST
+  GLSL::CompoundStatementAST
+   GLSL::ExpressionStatementAST
+    GLSL::AssignmentExpressionAST
+     GLSL::IdentifierExpressionAST
+     GLSL::FunctionCallExpressionAST
+      GLSL::FunctionIdentifierAST
+       GLSL::BasicTypeAST
+      GLSL::LiteralExpressionAST
+== expression parsed=1
+GLSL::BinaryExpressionAST
+ GLSL::IdentifierExpressionAST
+ GLSL::BinaryExpressionAST
+  GLSL::IdentifierExpressionAST
+  GLSL::LiteralExpressionAST
+== broken parsed=0

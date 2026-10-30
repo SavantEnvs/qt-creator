@@ -1,0 +1,8 @@
+parse_failed=0 hasError=0
+namespace=My.Module
+plugins=1 first=myplugin
+components=2
+component Button 1.0 Button.qml singleton=0
+component Theme 2.1 Theme.qml singleton=1
+typeinfos=1 dependencies=1
+bad.parse_failed=1 bad.hasError=1

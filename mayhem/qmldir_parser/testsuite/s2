@@ -1,0 +1,6 @@
+module Foo
+script 1.0 helper.js
+plugin p ../lib
+prefer :/qt/qml/Foo/
+linktarget Foo_plugin
+designersupported

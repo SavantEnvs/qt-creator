@@ -1,0 +1,4 @@
+$#version 400
+layout(location=0) out vec4 c;
+struct S { float a; int b[3]; };
+void main() { S s; for (int i = 0; i < 3; ++i) s.b[i] = i; if (s.a > 0.0) discard; c = vec4(s.a); }

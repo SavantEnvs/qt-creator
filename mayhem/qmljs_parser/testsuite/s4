@@ -1,0 +1,1 @@
+var a = 1; function f(x) { if (x) { return x * 2 } else { for (var i = 0; i < 3; ++i) a += i } } f(a);

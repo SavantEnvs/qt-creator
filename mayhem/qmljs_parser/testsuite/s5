@@ -1,0 +1,3 @@
+import { a } from "mod.mjs";
+export const b = a ** 2;
+export default class X { constructor() { this.v = `t${a}` } }

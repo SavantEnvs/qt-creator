@@ -1,0 +1,1 @@
+let s = `a${b}c`; const o = { get x() { return 1 }, [k]: async () => await 1 };
